@@ -1,4 +1,3 @@
-// pages/projects.tsx
 export const getServerSideProps = async () => {
     const res = await fetch('https://api.example.com/projects');
     const projects = await res.json();

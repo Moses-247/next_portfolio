@@ -7,7 +7,7 @@ const Home: React.FC = () => {
     <div className={styles.container}>
         <Image src={profilePic} alt="Profile Picture" width={150} height={150} />
       <h1 className={styles.heading}>Welcome to My Portfolio</h1>
-      {/* Add more content here */}
+      {/* Add content here */}
     </div>
   );
 };
